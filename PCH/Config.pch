@@ -1,0 +1,26 @@
+//
+//  Config.pch
+//  GiFarre
+//
+//  Created by Sk Borhan Uddin on 20/11/17.
+//  Copyright © 2017 Sk Borhan Uddin. All rights reserved.
+//
+
+#ifndef Config_pch
+#define Config_pch
+
+#pragma mark - PCH Headers
+#import "Header.pch"
+#import "Purchase.pch"
+#import "Message.pch"
+
+
+#pragma mark - UX
+
+#define TAB_BAR_BACKGROUND (UIColor*)[UIColor colorWithRed:0.13 green:0.13 blue:0.13 alpha:1.0]
+#define TAB_BACKGROUND [UIColor colorWithRed:0.08 green:0.08 blue:0.08 alpha:1.0]
+#define APP_THEME_COLOR [UIColor colorWithRed:1.00 green:0.58 blue:0.00 alpha:1.0]
+
+#define CELL_NUMBER_PER_ROW 4
+
+#endif /* Config_pch */
